@@ -18,7 +18,7 @@ public class scorepanel extends JFrame {
         setTitle("Snake's Score");
         JTextArea ta;
         ta=new JTextArea();
-        ta.setBackground(Color.green);
+        ta.setBackground(Color.black);
         Font f;
         f=new Font("Arial",Font.ITALIC,50);
         ta.setFont(f);
@@ -45,7 +45,7 @@ public class scorepanel extends JFrame {
         //reading the file
         int score=0;
         try {
-            File file=new File("C:/Users/User/Desktop/CSE 252/Snake_game/scorefile/high_score.txt");
+            File file=new File("G:/Software Project/CSE 252/Snake_game/scorefile/high_score.txt");
             Scanner input=new Scanner(file);
             while(input.hasNext())
             {
@@ -61,7 +61,7 @@ public class scorepanel extends JFrame {
         {
             //writting the file
             try {
-                Formatter hs = new Formatter("C:/Users/User/Desktop/CSE 252/Snake_game/scorefile/high_score.txt");
+                Formatter hs = new Formatter("G:/Software Project/CSE 252/Snake_game/scorefile/high_score.txt");
                 hs.format("%d\n", z);
                 hs.close();
             }
