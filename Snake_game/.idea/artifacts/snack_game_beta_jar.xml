@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="snack_game_beta:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/snack_game_beta_jar</output-path>
+    <root id="archive" name="snack_game_beta.jar">
+      <element id="module-output" name="snack_game_beta" />
+    </root>
+  </artifact>
+</component>
